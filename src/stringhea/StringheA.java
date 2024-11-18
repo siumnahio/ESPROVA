@@ -19,7 +19,7 @@ public class StringheA {
         PrintA PrintA = new PrintA();
         
         // chiamo Scan che ritorna una stringa a StringToArray, che converte
-        // la stringa in un'arrayy di char e lo passa a Count, che ne conta le A
+        // la stringa in un'array di char e lo passa a Count, che ne conta le A
         // e passa il risultato a Print che stampa le a corrispondenti
         
         PrintA.Print(CountA.Count(Convert.StringToArray(ScanString.Scan())));
